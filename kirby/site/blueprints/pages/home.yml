@@ -1,0 +1,20 @@
+title: Home
+columns:
+  - width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          text:
+            type: textarea
+          # passcode:
+          #   type: text
+          # filelink:
+          #   type: url
+          codes:
+            type: structure
+            fields:
+              passcode:
+                type: text
+              filelink:
+                type: url

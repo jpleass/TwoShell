@@ -1,0 +1,45 @@
+title: About
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      left:
+        sections:
+          content:
+            type: fields
+            fields:
+              contact:
+                label: Contact
+                type: textarea
+              text:
+                label: Text
+                type: textarea
+              clientspublic:
+                label: Clients Public
+                type: textarea
+                width: 1/3
+              clientsprivate:
+                label: Clients Private
+                type: textarea
+                width: 1/3
+              clientsnonprofit:
+                label: Clients Non-Profit
+                type: textarea
+                width: 1/3
+              careers:
+                label: Careers
+                type: textarea
+  team:
+    label: Team
+    icon: users
+    columns:
+      team:
+        sections:
+          team:
+            type: pages
+            layout: cards
+            image: page.cover.toFile
+            template: team
+
+      

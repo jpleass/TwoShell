@@ -1,0 +1,5 @@
+type: group
+fields:
+  related:
+    type: pages
+    query: page.siblings(false)

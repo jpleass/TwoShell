@@ -1,0 +1,14 @@
+type: group
+fields:
+  filterservice:
+    label: Filter Service
+    type: multiselect
+  filtercategory:
+    label: Filter Categeory
+    type: multiselect
+  filterclienttype:
+    label: Filter Client Type
+    type: multiselect
+  filterlocation:
+    label: Filter Location
+    type: multiselect

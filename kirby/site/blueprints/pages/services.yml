@@ -1,0 +1,12 @@
+title: Services
+preset: page
+files: false
+pages: false
+fields:
+  services:
+    type: structure
+    fields:
+      title:
+        type: text
+      text:
+        type: textarea

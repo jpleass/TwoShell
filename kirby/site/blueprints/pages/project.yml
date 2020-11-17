@@ -1,0 +1,63 @@
+title: Project
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      left:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              headline:
+                label: Headline
+                type: text
+              tagline:
+                label: Tagline
+                type: text
+              responsebar:
+                type: structure
+                label: Response Bar
+                fields:
+                  title:
+                    type: text
+                  text:
+                    type: textarea
+              thecontent: fields/content
+      right:
+        width: 1/3
+        sections:
+          files:
+            type: files
+            headline: Files
+  aside:
+    label: Aside
+    icon: text
+    columns:
+      left:
+        width: 2/3
+        sections:
+          aside:
+            type: fields
+            fields:
+              client:
+                type: text
+              location:
+                type: text
+              collaborators:
+                type: text
+              date:
+                type: text
+              links:
+                type: textarea
+      right:
+        width: 1/3
+        sections:
+          files:
+  meta:
+    label: Meta
+    icon: settings
+    fields:
+      related: fields/related
+      filter: fields/filter

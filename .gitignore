@@ -1,0 +1,16 @@
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# built files
+kirby/favicon.ico
+kirby/vue-assets
+kirby/site/plugins/kirby-vue-starterkit/vue-index.php
+kirby/content

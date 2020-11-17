@@ -1,0 +1,30 @@
+type: builder
+label: The Content
+columns: 1
+fieldsets:
+  bodytext:
+    name: Text
+    fields:
+      text:
+        label: Text
+        type: textarea
+  image:
+    name: Image
+    fields:
+      image:
+        label: Image
+        type: files
+        multiple: false
+        template: image
+      small:
+        label: Make Small
+        type: toggle
+  video:
+    name: Video
+    fields:
+      video:
+        label: Video
+        type: url
+      videocaption:
+        label: Video Caption
+        type: text

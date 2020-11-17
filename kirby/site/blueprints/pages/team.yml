@@ -1,0 +1,17 @@
+title: Team
+preset: page
+pages: false
+fields:
+  cover:
+    type: files
+    multiple: false
+  name:
+    type: text
+    width: 1/2
+  job:
+    type: text
+    width: 1/2
+  contact:
+    type: email
+  text:
+    type: textarea
